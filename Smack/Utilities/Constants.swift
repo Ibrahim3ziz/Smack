@@ -8,6 +8,15 @@
 
 import Foundation
 
+// is simply renaming the type
+typealias CompletionHandler = (_ Success: Bool) -> ()
+
+// URL Contents
+
+let BASE_URL = "https://cchhaatt.herokuapp.com/"
+let URL_REGISTER = "\(BASE_URL)/account/register"
+
+
 // Segues
 
 let TO_LOGIN = "toLogin"
