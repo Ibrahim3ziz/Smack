@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0434C47725395C5E0035ED08 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0434C47625395C5E0035ED08 /* RoundedButton.swift */; };
 		043CDE8E252242180052D3C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043CDE8D252242180052D3C4 /* AppDelegate.swift */; };
 		043CDE90252242180052D3C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043CDE8F252242180052D3C4 /* SceneDelegate.swift */; };
 		043CDE95252242180052D3C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043CDE93252242180052D3C4 /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0434C47625395C5E0035ED08 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		043CDE8A252242180052D3C4 /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		043CDE8D252242180052D3C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		043CDE8F252242180052D3C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				043CDEAD252386C80052D3C4 /* GradientView.swift */,
+				0434C47625395C5E0035ED08 /* RoundedButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -161,7 +164,6 @@
 				42A5A52A738BC752CB2B83C3 /* Pods-Smack.debug.xcconfig */,
 				064A23130AC51C11EE0DDA8A /* Pods-Smack.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -287,6 +289,7 @@
 				043CDEA52522A4DE0052D3C4 /* SWRevealViewController.m in Sources */,
 				043CDEAE252386C80052D3C4 /* GradientView.swift in Sources */,
 				043CDEB5252422960052D3C4 /* CreateAccountVC.swift in Sources */,
+				0434C47725395C5E0035ED08 /* RoundedButton.swift in Sources */,
 				043CDEB12524100D0052D3C4 /* Constants.swift in Sources */,
 				043CDEB82532D7D00052D3C4 /* AuthService.swift in Sources */,
 				043CDEAC252364290052D3C4 /* ChannelVC.swift in Sources */,
